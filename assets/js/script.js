@@ -70,8 +70,7 @@ function generatePassword() {
   var upperChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
   var lowerChars = "abcdefghijklmnopqrstuvwxyz".split("");
   var numericChars = "0123456789".split("");
-  var specialChars = ["!","@","#","$","%","^","&","*","(",")","-","_","+","=","<",">","?","|","[","]","{","}",";",":",",",".","~",
-  ];
+  var specialChars = " !\"#$%&'()*+,-./:;<=>?@[\]^_`{|}~".split("");
 
   var selectedChars = [];
 
